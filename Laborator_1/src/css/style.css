@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+}
+
+
+nav {
+    display: flex;
+    height: 20px;
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    width: 20px;
+}
+.menu_list{
+    list-style-type: none;
+    display: inline;
+}
+
+.menu .menu_item{
+    text-decoration: none;
+}
